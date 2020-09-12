@@ -1,0 +1,108 @@
+:root {
+    --color-primary: #124EB0;
+    --color-secondary: #0B3270;
+    --color-button-secundary: #808184;
+
+    --color-font-primary: #E8EBE6;
+
+
+    --success-alert: #1AD937;
+    /*verdinho claro */
+
+    --bg-dark: #232423;
+    --bg-ligth-mode: #E8EBE6;
+
+    --bg-dark-mode: #171716;
+
+    --danger-alert: #BB1105;
+}
+
+div.jq-toast-wrap {
+    background-color: var(--danger-alert);
+}
+
+img.logo-serratec {
+    width: 10%;
+    height: 100%;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.logo {
+    background-color: var(--color-secondary);
+}
+
+img.imagem-turma {
+    width: 100%;
+    height: 100%;
+    border-radius: 3%;
+    margin-top: 15px;
+    box-shadow: var(--color-button-secundary) 1px 1px 7px;
+
+}
+
+.navbar {
+    background-color: var(--color-secondary);
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: var(--color-secondary);
+}
+
+.custom-control-input.is-valid:checked~.custom-control-label::before,
+.was-validated .custom-control-input:valid:checked~.custom-control-label::before {
+    background-color: var(--color-primary);
+}
+
+.custom-control-input.is-valid~.custom-control-label,
+.was-validated .custom-control-input:valid~.custom-control-label {
+    color: var(--bg-dark-mode);
+}
+
+.title {
+    margin-top: 15px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.leia {
+    margin-top: 15px;
+}
+
+.saiba {
+    margin-top: 15px;
+}
+
+.card {
+    margin-top: 35px;
+    box-shadow: var(--color-button-secundary) 1px 1px 7px;
+
+}
+
+.carousel-inner {
+    margin-top: 50px;
+    box-shadow: var(--color-button-secundary) 1px 1px 7px;
+
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.text {
+    margin-top: 50px;
+}
+
+.page-footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 0;
+    width: 100%;
+    text-align: center;
+}
