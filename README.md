@@ -12,4 +12,4 @@
 
 # Gif preview
 
-![Gif do projeto]https://github.com/BrGUILHERMEHenrique/frontend-serratec-page/blob/master/img/Mygif1.0.gif)
+![Gif do projeto](https://github.com/BrGUILHERMEHenrique/frontend-serratec-page/blob/master/img/Mygif1.0.gif)
